@@ -9,6 +9,7 @@ namespace Models.MovelInterface
 {
     public interface IFactoryMovel
     {
+        //ASSINATURA DE METODO FACTORY
         public abstract Movel FactoryMovel(int tipo);
     }
 }
